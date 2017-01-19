@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sum</h2>
+
+@model _01.ASP.NET_MVC_application.Models.CalculatorModel
+@using (Html.BeginForm("Sum", "Sum", FormMethod.Post))
+{
+    @Html.TextBoxFor(m => m.FirstNumber)
+    <span> + </span>
+    @Html.TextBoxFor(m => m.SecondNumber)
+    <span> = </span>
+    @Html.DisplayFor(x => x.Sum)
+    <!--
+    <input type="password" name="Password" />
+    You can use HTML inputs, but it's more reliable to use strongly-typed MVC helpers.
+    -->
+    <br />
+    <input type="submit" value="Sum" />
+}
