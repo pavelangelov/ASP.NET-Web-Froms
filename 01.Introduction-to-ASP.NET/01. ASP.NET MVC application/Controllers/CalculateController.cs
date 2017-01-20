@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace _01.ASP.NET_MVC_application.Controllers
 {
-    public class SumController : Controller
+    public class CalculateController : Controller
     {
         // GET: Sum
         public ActionResult Index()
@@ -18,7 +18,6 @@ namespace _01.ASP.NET_MVC_application.Controllers
         [HttpPost]
         public ActionResult Sum(CalculatorModel calc)
         {
-            var result = calc.Sum;
             return View("Index", calc);
         }
     }

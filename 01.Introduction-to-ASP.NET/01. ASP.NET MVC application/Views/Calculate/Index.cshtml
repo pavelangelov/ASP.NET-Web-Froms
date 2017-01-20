@@ -3,14 +3,16 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Sum</h2>
+<h2>Calculate sum of two numbers:</h2>
 
 @model _01.ASP.NET_MVC_application.Models.CalculatorModel
-@using (Html.BeginForm("Sum", "Sum", FormMethod.Post))
+@using (Html.BeginForm("Sum", "Calculate", FormMethod.Post))
 {
     @Html.TextBoxFor(m => m.FirstNumber)
+    @Html.ValidationMessageFor(x => x.FirstNumber)
     <span> + </span>
     @Html.TextBoxFor(m => m.SecondNumber)
+    @Html.ValidationMessageFor(x => x.SecondNumber)
     <span> = </span>
     @Html.DisplayFor(x => x.Sum)
     <!--
