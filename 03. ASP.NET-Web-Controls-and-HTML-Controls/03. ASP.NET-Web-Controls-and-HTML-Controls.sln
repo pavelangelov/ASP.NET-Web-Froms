@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3. Students and Course
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 4. Tic-tac-toe", "Task 4. Tic-tac-toe\Task 4. Tic-tac-toe.csproj", "{D6A54CDF-23B7-4C7C-94DC-AB06FC9B1DE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5. Web Calculator", "Task 5. Web Calculator\Task 5. Web Calculator.csproj", "{7553B75E-6038-48AB-AF66-CED02D86DE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5. Web Calculator.Tests", "Task 5. Web Calculator.Tests\Task 5. Web Calculator.Tests.csproj", "{244CC128-5A6B-4B0D-B4D2-48A86B709C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{D6A54CDF-23B7-4C7C-94DC-AB06FC9B1DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A54CDF-23B7-4C7C-94DC-AB06FC9B1DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6A54CDF-23B7-4C7C-94DC-AB06FC9B1DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7553B75E-6038-48AB-AF66-CED02D86DE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7553B75E-6038-48AB-AF66-CED02D86DE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7553B75E-6038-48AB-AF66-CED02D86DE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7553B75E-6038-48AB-AF66-CED02D86DE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244CC128-5A6B-4B0D-B4D2-48A86B709C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244CC128-5A6B-4B0D-B4D2-48A86B709C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244CC128-5A6B-4B0D-B4D2-48A86B709C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244CC128-5A6B-4B0D-B4D2-48A86B709C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
