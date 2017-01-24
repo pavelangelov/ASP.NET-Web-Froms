@@ -370,6 +370,7 @@
     <Compile Include="Tic-Tac-Toe.aspx.designer.cs">
       <DependentUpon>Tic-Tac-Toe.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Utils\TicTacToeHelper.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
