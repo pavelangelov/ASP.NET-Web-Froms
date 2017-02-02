@@ -1,41 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
-
-using DataServices;
+using WebClient.Models;
+using WebClient.Views;
+using WebFormsMvp.Web;
+using WebClient.Presenters;
+using WebFormsMvp;
 
 namespace MobileSite.UserControls
 {
-    public partial class SearchMenu : System.Web.UI.UserControl
+    [PresenterBinding(typeof(CarsPresenter))]
+    public partial class SearchMenu : MvpUserControl<CarsViewModel>, ICarsView
     {
-        private CarsService carsData;
-
-        public SearchMenu()
-        {
-            this.carsData = new CarsService();
-        }
-
+        public event EventHandler PageLoad;
+        public event EventHandler<CarsEventArgs> SelectedIndexChanged;
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                var producers = carsData.GetProducers();
-                this.CarProducers.DataSource = producers;
+                this.PageLoad?.Invoke(sender, e);
+                
+                this.CarProducers.DataSource = this.Model.Producers;
                 this.CarProducers.DataBind();
 
                 var selsctedProducer = this.CarProducers.SelectedItem.Text;
 
-                var modelsToSHow = carsData.GetModelsByProducer(selsctedProducer);
+                this.SelectedIndexChanged?.Invoke(sender, (new CarsEventArgs(selsctedProducer)));
 
-                this.Models.DataSource = modelsToSHow;
+                this.Models.DataSource = this.Model.Models;
                 this.Models.DataBind();
-
-                var extras = this.carsData.GetExtras();
-                this.Extras.DataSource = extras;
+                
+                this.Extras.DataSource = this.Model.Extras;
                 this.Extras.DataBind();
             }
         }
@@ -43,9 +40,9 @@ namespace MobileSite.UserControls
         protected void CarProducers_SelectedIndexChanged(object sender, EventArgs e)
         {
             var selsctedProducer = this.CarProducers.SelectedItem.Text;
-            var modelsToSHow = carsData.GetModelsByProducer(selsctedProducer);
+            this.SelectedIndexChanged?.Invoke(sender, (new CarsEventArgs(selsctedProducer)));
 
-            this.Models.DataSource = modelsToSHow;
+            this.Models.DataSource = this.Model.Models;
             this.Models.DataBind();
         }
 

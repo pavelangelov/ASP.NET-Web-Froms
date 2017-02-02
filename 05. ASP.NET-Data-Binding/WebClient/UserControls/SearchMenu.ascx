@@ -27,7 +27,7 @@
             <asp:DropDownList
                 runat="server"
                 ID="Models"
-                AutoPostBack="true">
+                AutoPostBack="false">
             </asp:DropDownList>
 
         </div>

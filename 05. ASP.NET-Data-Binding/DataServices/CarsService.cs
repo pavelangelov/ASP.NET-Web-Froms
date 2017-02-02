@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataServices
 {
-    public class CarsService
+    public class CarsService : ICarService
     {
         private ICollection<IProducer> producers;
 
