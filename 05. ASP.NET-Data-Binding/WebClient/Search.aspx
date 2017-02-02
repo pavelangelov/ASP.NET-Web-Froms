@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Search" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="MobileSite.About" %>
+﻿<%@ Page Title="Search" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="WebClient.Search" %>
 
 <%@ Register Src="~/UserControls/CarSearch.ascx" TagPrefix="uc" TagName="searchmenu"  %>
 

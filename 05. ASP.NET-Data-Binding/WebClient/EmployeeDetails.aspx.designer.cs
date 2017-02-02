@@ -7,7 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MobileSite {
+namespace WebClient
+{
     
     
     public partial class EmployeeDetails {

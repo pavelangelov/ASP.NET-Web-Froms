@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Northwind Employees" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Employees.aspx.cs" Inherits="MobileSite.Contact" %>
+﻿<%@ Page Title="Northwind Employees" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Employees.aspx.cs" Inherits="WebClient.Employees" %>
 
 <%@ Register Src="~/UserControls/Employees.ascx" TagName="employees" TagPrefix="uc" %>
 

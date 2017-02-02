@@ -3,7 +3,7 @@
     MasterPageFile="~/Site.Master"
     AutoEventWireup="true"
     CodeBehind="EmployeeDetails.aspx.cs"
-    Inherits="MobileSite.EmployeeDetails" %>
+    Inherits="WebClient.EmployeeDetails" %>
 
 <%@ Register Src="~/UserControls/EmployeeDetails.ascx" TagPrefix="uc" TagName="details" %>
 
