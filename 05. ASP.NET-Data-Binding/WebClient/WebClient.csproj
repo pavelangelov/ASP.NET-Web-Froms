@@ -201,6 +201,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="EmployeeDetails.aspx" />
+    <Content Include="EmployeeDetailsFormView.aspx" />
     <Content Include="Employees.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -243,6 +244,7 @@
     <Content Include="Search.aspx" />
     <Content Include="Site.Master" />
     <Content Include="UserControls\EmployeeDetails.ascx" />
+    <Content Include="UserControls\EmployeeDetailsFormView.ascx" />
     <Content Include="UserControls\Employees.ascx" />
     <Content Include="UserControls\CarSearch.ascx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -367,6 +369,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\CustomModules\CarsNinjectModule.cs" />
     <Compile Include="App_Start\CustomModules\EmployeesNinjectModule.cs" />
+    <Compile Include="EmployeeDetailsFormView.aspx.cs">
+      <DependentUpon>EmployeeDetailsFormView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeDetailsFormView.aspx.designer.cs">
+      <DependentUpon>EmployeeDetailsFormView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Factories\ICustomPresenterFactory.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\MvpNinjectModule.cs" />
@@ -437,6 +446,13 @@
     </Compile>
     <Compile Include="UserControls\EmployeeDetails.ascx.designer.cs">
       <DependentUpon>EmployeeDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EmployeeDetailsFormView.ascx.cs">
+      <DependentUpon>EmployeeDetailsFormView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EmployeeDetailsFormView.ascx.designer.cs">
+      <DependentUpon>EmployeeDetailsFormView.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Employees.ascx.cs">
       <DependentUpon>Employees.ascx</DependentUpon>

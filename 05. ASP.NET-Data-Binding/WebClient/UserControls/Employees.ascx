@@ -24,6 +24,11 @@
                         <a href="EmployeeDetails?id=<%# Item.Id %>"><%# Item.Name%></a>
                     </ItemTemplate>
                 </asp:TemplateField>
+                <asp:TemplateField HeaderText="">
+                    <ItemTemplate>
+                        <a href="EmployeeDetailsFormView?id=<%# Item.Id %>">View details in FormView</a>
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
         </asp:GridView>
     </div>
