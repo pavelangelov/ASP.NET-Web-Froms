@@ -11,10 +11,10 @@ using WebClient.Views;
 using WebFormsMvp;
 using WebFormsMvp.Web;
 
-namespace MobileSite.UserControls
+namespace WebClient.UserControls
 {
     [PresenterBinding(typeof(EmployeeDetailsPresenter))]
-    public partial class DetailsControl : MvpUserControl<EmployeeDetailsViewModel>, IEmployeeDetailsView
+    public partial class EmployeeDetails : MvpUserControl<EmployeeDetailsViewModel>, IEmployeeDetailsView
     {
         public event EventHandler<EmployeeDetailsEventArgs> PageLoad;
 

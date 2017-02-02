@@ -8,10 +8,10 @@ using WebFormsMvp.Web;
 using WebClient.Presenters;
 using WebFormsMvp;
 
-namespace MobileSite.UserControls
+namespace WebClient.UserControls
 {
     [PresenterBinding(typeof(CarsPresenter))]
-    public partial class SearchMenu : MvpUserControl<CarsViewModel>, ICarsView
+    public partial class CarSearch : MvpUserControl<CarsViewModel>, ICarsView
     {
         public event EventHandler PageLoad;
         public event EventHandler<CarsEventArgs> SelectedIndexChanged;

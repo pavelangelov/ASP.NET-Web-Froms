@@ -7,27 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MobileSite.UserControls {
+namespace WebClient.UserControls
+{
     
     
-    public partial class DetailsControl {
+    public partial class Employees {
         
         /// <summary>
-        /// employeeImage control.
+        /// Employees control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image employeeImage;
-        
-        /// <summary>
-        /// Details control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DetailsView Details;
+        protected global::System.Web.UI.WebControls.GridView EmployeesTable;
     }
 }

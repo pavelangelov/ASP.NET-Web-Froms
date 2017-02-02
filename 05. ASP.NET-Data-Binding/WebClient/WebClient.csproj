@@ -242,9 +242,9 @@
     <Content Include="Global.asax" />
     <Content Include="Search.aspx" />
     <Content Include="Site.Master" />
-    <Content Include="UserControls\DetailsControl.ascx" />
-    <Content Include="UserControls\EmployeesControl.ascx" />
-    <Content Include="UserControls\SearchMenu.ascx" />
+    <Content Include="UserControls\EmployeeDetails.ascx" />
+    <Content Include="UserControls\Employees.ascx" />
+    <Content Include="UserControls\CarSearch.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -431,26 +431,26 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="UserControls\DetailsControl.ascx.cs">
-      <DependentUpon>DetailsControl.ascx</DependentUpon>
+    <Compile Include="UserControls\EmployeeDetails.ascx.cs">
+      <DependentUpon>EmployeeDetails.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\DetailsControl.ascx.designer.cs">
-      <DependentUpon>DetailsControl.ascx</DependentUpon>
+    <Compile Include="UserControls\EmployeeDetails.ascx.designer.cs">
+      <DependentUpon>EmployeeDetails.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\EmployeesControl.ascx.cs">
-      <DependentUpon>EmployeesControl.ascx</DependentUpon>
+    <Compile Include="UserControls\Employees.ascx.cs">
+      <DependentUpon>Employees.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\EmployeesControl.ascx.designer.cs">
-      <DependentUpon>EmployeesControl.ascx</DependentUpon>
+    <Compile Include="UserControls\Employees.ascx.designer.cs">
+      <DependentUpon>Employees.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\SearchMenu.ascx.cs">
-      <DependentUpon>SearchMenu.ascx</DependentUpon>
+    <Compile Include="UserControls\CarSearch.ascx.cs">
+      <DependentUpon>CarSearch.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\SearchMenu.ascx.designer.cs">
-      <DependentUpon>SearchMenu.ascx</DependentUpon>
+    <Compile Include="UserControls\CarSearch.ascx.designer.cs">
+      <DependentUpon>CarSearch.ascx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

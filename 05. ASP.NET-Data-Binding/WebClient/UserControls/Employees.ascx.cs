@@ -12,10 +12,10 @@ using WebClient.Views;
 using WebFormsMvp;
 using WebFormsMvp.Web;
 
-namespace MobileSite.UserControls
+namespace WebClient.UserControls
 {
     [PresenterBinding(typeof(EmployeesPresenter))]
-    public partial class EmployeesControl : MvpUserControl<EmployeesViewModel>, IEmployeesView
+    public partial class Employees : MvpUserControl<EmployeesViewModel>, IEmployeesView
     {
         public event EventHandler PageLoad;
 
@@ -25,8 +25,8 @@ namespace MobileSite.UserControls
             {
                 this.PageLoad?.Invoke(sender, e);
 
-                this.Employees.DataSource = this.Model.Employees;
-                this.Employees.DataBind();
+                this.EmployeesTable.DataSource = this.Model.Employees;
+                this.EmployeesTable.DataBind();
             }
         }
     }

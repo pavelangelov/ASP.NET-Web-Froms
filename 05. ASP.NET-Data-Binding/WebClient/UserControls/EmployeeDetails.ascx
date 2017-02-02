@@ -1,9 +1,9 @@
 ﻿<%@ Control
     Language="C#" 
     AutoEventWireup="true" 
-    CodeBehind="DetailsControl.ascx.cs" 
-    CodeFile="~/UserControls/DetailsControl.ascx.cs"
-    Inherits="MobileSite.UserControls.DetailsControl" %>
+    CodeBehind="EmployeeDetails.ascx.cs" 
+    CodeFile="~/UserControls/EmployeeDetails.ascx.cs"
+    Inherits="WebClient.UserControls.EmployeeDetails" %>
 
 <!DOCTYPE html>
 

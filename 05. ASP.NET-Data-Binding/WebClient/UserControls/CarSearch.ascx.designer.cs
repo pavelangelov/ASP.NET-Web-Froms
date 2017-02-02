@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MobileSite.UserControls {
+namespace WebClient.UserControls {
     
     
-    public partial class SearchMenu {
+    public partial class CarSearch {
         
         /// <summary>
         /// Summary control.

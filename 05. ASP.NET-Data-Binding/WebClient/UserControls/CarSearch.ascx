@@ -1,9 +1,9 @@
 ﻿<%@  Control
     Language="C#"
     AutoEventWireup="true"
-    CodeBehind="SearchMenu.ascx.cs"
-    CodeFile="~/UserControls/SearchMenu.ascx.cs"
-    Inherits="MobileSite.UserControls.SearchMenu" %>
+    CodeBehind="CarSearch.ascx.cs"
+    CodeFile="~/UserControls/CarSearch.ascx.cs"
+    Inherits="WebClient.UserControls.CarSearch" %>
 
 <!DOCTYPE html>
 
