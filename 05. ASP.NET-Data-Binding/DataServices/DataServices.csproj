@@ -54,6 +54,7 @@
     <Compile Include="CarsService.cs" />
     <Compile Include="Contracts\ICarService.cs" />
     <Compile Include="Contracts\ICurrentEmployeeViewModel.cs" />
+    <Compile Include="Contracts\IEmployeeDbContext.cs" />
     <Compile Include="Contracts\IEmployeeViewModel.cs" />
     <Compile Include="Contracts\IProducer.cs" />
     <Compile Include="Models\CurrentEmployeeViewModel.cs" />

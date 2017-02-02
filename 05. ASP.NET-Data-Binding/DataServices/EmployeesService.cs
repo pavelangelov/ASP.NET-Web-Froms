@@ -10,39 +10,45 @@ using System.Threading.Tasks;
 
 namespace DataServices
 {
-    public class EmployeesService
+    public class EmployeesService : IEmployeeDbContext
     {
-        private NORTHWNDEntities db;
+        private NORTHWNDEntities dbContext;
 
-        public EmployeesService()
+        public EmployeesService(NORTHWNDEntities dbContext)
         {
-            this.db = new NORTHWNDEntities();
+            this.dbContext = dbContext;
         }
 
         public IEnumerable<IEmployeeViewModel> GetAllEmployees()
         {
-            var employees = this.db.Employees.Select(e => new EmployeeViewModel() { Id = e.EmployeeID,
-            Name = e.FirstName + " " +  e.LastName}).ToArray();
+            var employees = this.dbContext.Employees.Select(e => new EmployeeViewModel()
+            {
+                Id = e.EmployeeID,
+                Name = e.FirstName + " " + e.LastName
+            }).ToArray();
 
             return employees;
         }
 
-        public ICurrentEmployeeViewModel GetEmployeeById(int id)
+        public IEnumerable<ICurrentEmployeeViewModel> GetEmployeeById(int id)
         {
-            var dbEmployee = this.db.Employees.FirstOrDefault(e => e.EmployeeID == id);
-            var employee = new CurrentEmployeeViewModel();
-            employee.FirstName = dbEmployee.FirstName;
-            employee.LastName = dbEmployee.LastName;
-            employee.Address = dbEmployee.Address;
-            employee.Country = dbEmployee.Country;
-            employee.City = dbEmployee.City;
-            employee.BirthDate = dbEmployee.BirthDate;
-            employee.HireDate = dbEmployee.HireDate;
-            employee.Title = dbEmployee.Title;
-            employee.TitleOfCourtesy = dbEmployee.TitleOfCourtesy;
-            employee.Image = dbEmployee.Photo;
+            var employees = this.dbContext.Employees.Where(e => e.EmployeeID == id)
+                                                    .Select(em => new CurrentEmployeeViewModel()
+                                                    {
+                                                        FirstName = em.FirstName,
+                                                        LastName = em.LastName,
+                                                        Address = em.Address,
+                                                        Country = em.Country,
+                                                        City = em.City,
+                                                        BirthDate = em.BirthDate,
+                                                        HireDate = em.HireDate,
+                                                        Title = em.Title,
+                                                        TitleOfCourtesy = em.TitleOfCourtesy,
+                                                        Image = em.Photo
+                                                    });
+            
 
-            return employee;
+            return employees;
         }
-    }
+}
 }

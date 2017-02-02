@@ -5,17 +5,19 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebClient.Models;
+using WebClient.Presenters;
+using WebClient.Views;
+using WebFormsMvp;
+using WebFormsMvp.Web;
 
 namespace MobileSite.UserControls
 {
-    public partial class DetailsControl : System.Web.UI.UserControl
+    [PresenterBinding(typeof(EmployeeDetailsPresenter))]
+    public partial class DetailsControl : MvpUserControl<EmployeeDetailsViewModel>, IEmployeeDetailsView
     {
-        private EmployeesService employeesData;
+        public event EventHandler<EmployeeDetailsEventArgs> PageLoad;
 
-        public DetailsControl()
-        {
-            this.employeesData = new EmployeesService();
-        }
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.Params["Id"] == null)
@@ -26,11 +28,9 @@ namespace MobileSite.UserControls
             int id;
             if (int.TryParse(Request.Params["Id"], out id))
             {
-                var employee = this.employeesData.GetEmployeeById(id);
+                this.PageLoad?.Invoke(sender, new EmployeeDetailsEventArgs(id));
 
-                this.employeeImage.ImageUrl = "data:image/jpeg;base64," + Convert.ToBase64String(employee.Image);
-
-                this.Details.DataSource = new[] { employee };
+                this.Details.DataSource = this.Model.Employees;
                 this.Details.DataBind();
             }
         }

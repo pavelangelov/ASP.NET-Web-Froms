@@ -366,6 +366,7 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\CustomModules\CarsNinjectModule.cs" />
+    <Compile Include="App_Start\CustomModules\EmployeesNinjectModule.cs" />
     <Compile Include="Factories\ICustomPresenterFactory.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\MvpNinjectModule.cs" />
@@ -400,8 +401,13 @@
     </Compile>
     <Compile Include="Models\CarsEventArgs.cs" />
     <Compile Include="Models\CarsViewModel.cs" />
+    <Compile Include="Models\EmployeeDetailsEventArgs.cs" />
+    <Compile Include="Models\EmployeeDetailsViewModel.cs" />
+    <Compile Include="Models\EmployeesViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Presenters\CarsPresenter.cs" />
+    <Compile Include="Presenters\EmployeeDetailsPresenter.cs" />
+    <Compile Include="Presenters\EmployeesPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search.aspx.cs">
       <DependentUpon>Search.aspx</DependentUpon>
@@ -454,6 +460,8 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
     <Compile Include="Views\ICarsView.cs" />
+    <Compile Include="Views\IEmployeeDetailsView.cs" />
+    <Compile Include="Views\IEmployeesView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

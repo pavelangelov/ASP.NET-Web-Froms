@@ -6,25 +6,26 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebClient.Models;
+using WebClient.Presenters;
+using WebClient.Views;
+using WebFormsMvp;
+using WebFormsMvp.Web;
 
 namespace MobileSite.UserControls
 {
-    public partial class EmployeesControl : System.Web.UI.UserControl
+    [PresenterBinding(typeof(EmployeesPresenter))]
+    public partial class EmployeesControl : MvpUserControl<EmployeesViewModel>, IEmployeesView
     {
-        private EmployeesService employeesData;
-
-        public EmployeesControl()
-        {
-            this.employeesData = new EmployeesService();
-        }
+        public event EventHandler PageLoad;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                var employees = this.employeesData.GetAllEmployees();
+                this.PageLoad?.Invoke(sender, e);
 
-                this.Employees.DataSource = employees;
+                this.Employees.DataSource = this.Model.Employees;
                 this.Employees.DataBind();
             }
         }
