@@ -10,15 +10,15 @@
 namespace WebClient.UserControls {
     
     
-    public partial class Employees {
+    public partial class AllEmployeesDetails {
         
         /// <summary>
-        /// EmployeesTable control.
+        /// EmployeesRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView EmployeesTable;
+        protected global::System.Web.UI.WebControls.Repeater EmployeesRepeater;
     }
 }

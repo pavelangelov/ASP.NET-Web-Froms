@@ -197,6 +197,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AllEmployeesDetails.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -243,6 +244,7 @@
     <Content Include="Global.asax" />
     <Content Include="Search.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="UserControls\AllEmployeesDetails.ascx" />
     <Content Include="UserControls\EmployeeDetails.ascx" />
     <Content Include="UserControls\EmployeeDetailsFormView.ascx" />
     <Content Include="UserControls\Employees.ascx" />
@@ -366,6 +368,13 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AllEmployeesDetails.aspx.cs">
+      <DependentUpon>AllEmployeesDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllEmployeesDetails.aspx.designer.cs">
+      <DependentUpon>AllEmployeesDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\CustomModules\CarsNinjectModule.cs" />
     <Compile Include="App_Start\CustomModules\EmployeesNinjectModule.cs" />
@@ -408,12 +417,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AllEmployeesViewModel.cs" />
     <Compile Include="Models\CarsEventArgs.cs" />
     <Compile Include="Models\CarsViewModel.cs" />
     <Compile Include="Models\EmployeeDetailsEventArgs.cs" />
     <Compile Include="Models\EmployeeDetailsViewModel.cs" />
     <Compile Include="Models\EmployeesViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Presenters\AllEmployeesPresenter.cs" />
     <Compile Include="Presenters\CarsPresenter.cs" />
     <Compile Include="Presenters\EmployeeDetailsPresenter.cs" />
     <Compile Include="Presenters\EmployeesPresenter.cs" />
@@ -440,6 +451,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UserControls\AllEmployeesDetails.ascx.cs">
+      <DependentUpon>AllEmployeesDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AllEmployeesDetails.ascx.designer.cs">
+      <DependentUpon>AllEmployeesDetails.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\EmployeeDetails.ascx.cs">
       <DependentUpon>EmployeeDetails.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -475,6 +493,7 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Views\IAllEmployeesView.cs" />
     <Compile Include="Views\ICarsView.cs" />
     <Compile Include="Views\IEmployeeDetailsView.cs" />
     <Compile Include="Views\IEmployeesView.cs" />

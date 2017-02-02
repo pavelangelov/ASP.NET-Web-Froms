@@ -11,5 +11,7 @@ namespace DataServices.Contracts
         IEnumerable<IEmployeeViewModel> GetAllEmployees();
 
         IEnumerable<ICurrentEmployeeViewModel> GetEmployeeById(int id);
+
+        IEnumerable<ICurrentEmployeeViewModel> GetEmployeeWithDetails();
     }
 }

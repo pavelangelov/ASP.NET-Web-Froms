@@ -50,5 +50,25 @@ namespace DataServices
 
             return employees;
         }
-}
+
+        public IEnumerable<ICurrentEmployeeViewModel> GetEmployeeWithDetails()
+        {
+            var employees = this.dbContext.Employees.Select(em => new CurrentEmployeeViewModel()
+                                                    {
+                                                        FirstName = em.FirstName,
+                                                        LastName = em.LastName,
+                                                        Address = em.Address,
+                                                        Country = em.Country,
+                                                        City = em.City,
+                                                        BirthDate = em.BirthDate,
+                                                        HireDate = em.HireDate,
+                                                        Title = em.Title,
+                                                        TitleOfCourtesy = em.TitleOfCourtesy,
+                                                        Image = em.Photo
+                                                    });
+
+
+            return employees;
+        }
+    }
 }
