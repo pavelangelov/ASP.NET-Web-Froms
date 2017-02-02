@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCLC-vbm7OWvpbqzXaoAMGGw"/>
+ <id>yt:channel:UCLC-vbm7OWvpbqzXaoAMGGw</id>
+ <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+ <title>Telerik Academy</title>
+ <link rel="alternate" href="http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"/>
+ <author>
+  <name>Telerik Academy</name>
+  <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+ </author>
+ <published>2011-06-24T15:53:13+00:00</published>
+ <entry>
+  <id>yt:video:OGh3H76yF5g</id>
+  <yt:videoId>OGh3H76yF5g</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Class Methods and Properties</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=OGh3H76yF5g"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-02T19:23:38+00:00</published>
+  <updated>2017-02-02T19:25:49+00:00</updated>
+  <media:group>
+   <media:title>Class Methods and Properties</media:title>
+   <media:content url="https://www.youtube.com/v/OGh3H76yF5g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OGh3H76yF5g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Class Methods and Properties
+Курс: ООП с JavaScript
+Лектор: Кристиян Цъклев
+Дата: 2 февруари 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="9"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:r5WZGFRI6kU</id>
+  <yt:videoId>r5WZGFRI6kU</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Classes and Class Constructors</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=r5WZGFRI6kU"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-02T19:06:27+00:00</published>
+  <updated>2017-02-02T19:17:25+00:00</updated>
+  <media:group>
+   <media:title>Classes and Class Constructors</media:title>
+   <media:content url="https://www.youtube.com/v/r5WZGFRI6kU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r5WZGFRI6kU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Classes and Class Constructors
+Курс: ООП с JavaScript
+Лектор: Кристиян Цъклев
+Дата: 2 февруари 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="15"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:m4ePtGFivFU</id>
+  <yt:videoId>m4ePtGFivFU</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Android: Gestures &amp; Touch</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=m4ePtGFivFU"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-02T13:26:03+00:00</published>
+  <updated>2017-02-02T16:12:11+00:00</updated>
+  <media:group>
+   <media:title>Android: Gestures &amp; Touch</media:title>
+   <media:content url="https://www.youtube.com/v/m4ePtGFivFU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/m4ePtGFivFU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Gestures &amp; Touch 
+Курс: Мобилни приложения за Android
+Лектор: Дончо Минков
+Дата: 1 февруари 2017 г.
+
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="49"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Q-b9doZvGEU</id>
+  <yt:videoId>Q-b9doZvGEU</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Android: Навигация с табове и drawers</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=Q-b9doZvGEU"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-02T13:25:19+00:00</published>
+  <updated>2017-02-02T18:31:52+00:00</updated>
+  <media:group>
+   <media:title>Android: Навигация с табове и drawers</media:title>
+   <media:content url="https://www.youtube.com/v/Q-b9doZvGEU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Q-b9doZvGEU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Навигация с табове и drawers
+Курс: Мобилни приложения за Android
+Лектор: Дончо Минков
+Дата: 1 февруари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="26"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YHp-q2fAfwc</id>
+  <yt:videoId>YHp-q2fAfwc</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Android: HTTP и AsyncTasks</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=YHp-q2fAfwc"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-02T13:19:34+00:00</published>
+  <updated>2017-02-02T15:45:48+00:00</updated>
+  <media:group>
+   <media:title>Android: HTTP и AsyncTasks</media:title>
+   <media:content url="https://www.youtube.com/v/YHp-q2fAfwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YHp-q2fAfwc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: HTTP и AsyncTasks 
+Курс: Мобилни приложения за Android
+Лектор: Дончо Минков
+Дата: 1 февруари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="16"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:COxzsshYaBM</id>
+  <yt:videoId>COxzsshYaBM</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Android: JSON to POJO с GSON</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=COxzsshYaBM"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-02T13:19:34+00:00</published>
+  <updated>2017-02-02T17:42:26+00:00</updated>
+  <media:group>
+   <media:title>Android: JSON to POJO с GSON</media:title>
+   <media:content url="https://www.youtube.com/v/COxzsshYaBM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/COxzsshYaBM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: JSON to POJO с GSON
+Курс: Мобилни приложения за Android
+Лектор: Дончо Минков
+Дата: 1 февруари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="26"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hvfwOMNXLwE</id>
+  <yt:videoId>hvfwOMNXLwE</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Data source контроли и model binding</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=hvfwOMNXLwE"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-01T11:54:50+00:00</published>
+  <updated>2017-02-01T16:51:36+00:00</updated>
+  <media:group>
+   <media:title>Data source контроли и model binding</media:title>
+   <media:content url="https://www.youtube.com/v/hvfwOMNXLwE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hvfwOMNXLwE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Data source контроли и model binding
+Курс: ASP.NET Web Forms
+Лектор: Виктор Цветков
+Дата: 31 януари 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="65"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:k8gDzfm7M2M</id>
+  <yt:videoId>k8gDzfm7M2M</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Live Demo: MVP pattern и Ninject в ASP.NET Web Forms</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=k8gDzfm7M2M"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-02-01T11:54:11+00:00</published>
+  <updated>2017-02-02T00:02:42+00:00</updated>
+  <media:group>
+   <media:title>Live Demo: MVP pattern и Ninject в ASP.NET Web Forms</media:title>
+   <media:content url="https://www.youtube.com/v/k8gDzfm7M2M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/k8gDzfm7M2M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Live Demo: MVP pattern и Ninject в ASP.NET Web Forms
+Курс: ASP.NET Web Forms
+Лектор: Виктор Цветков
+Дата: 31 януари 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="113"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xdwrne5XsUg</id>
+  <yt:videoId>xdwrne5XsUg</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Databases with TypeScript: Основи на Mongoose</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=xdwrne5XsUg"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T19:29:28+00:00</published>
+  <updated>2017-01-30T22:44:55+00:00</updated>
+  <media:group>
+   <media:title>Databases with TypeScript: Основи на Mongoose</media:title>
+   <media:content url="https://www.youtube.com/v/xdwrne5XsUg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xdwrne5XsUg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Основи на Mongoose
+Курс: Бази от данни с Node.js и TypeScript
+Лектор: Дончо Минков
+Дата: 28 януари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="68"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uZnUE_4qQbk</id>
+  <yt:videoId>uZnUE_4qQbk</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Databases with TypeScript: Асинхронни операции с Callbacks, Promises и Observables</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=uZnUE_4qQbk"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T19:29:28+00:00</published>
+  <updated>2017-01-30T21:31:37+00:00</updated>
+  <media:group>
+   <media:title>Databases with TypeScript: Асинхронни операции с Callbacks, Promises и Observables</media:title>
+   <media:content url="https://www.youtube.com/v/uZnUE_4qQbk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uZnUE_4qQbk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Асинхронни операции с Callbacks, Promises и Observables
+Курс: Бази от данни с Node.js и TypeScript
+Лектор: Дончо Минков
+Дата: 28 януари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="61"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QvBrDvinb0k</id>
+  <yt:videoId>QvBrDvinb0k</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Databases with TypeScript: Иструменти за работа с Node.js</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=QvBrDvinb0k"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T19:29:28+00:00</published>
+  <updated>2017-01-30T22:27:47+00:00</updated>
+  <media:group>
+   <media:title>Databases with TypeScript: Иструменти за работа с Node.js</media:title>
+   <media:content url="https://www.youtube.com/v/QvBrDvinb0k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QvBrDvinb0k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Иструменти за работа с Node.js
+Курс: Бази от данни с Node.js и TypeScript
+Лектор: Дончо Минков
+Дата: 28 януари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="118"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QhPSwZoOqL4</id>
+  <yt:videoId>QhPSwZoOqL4</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Databases with TypeScript: Въведение в Node.js</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=QhPSwZoOqL4"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T19:29:28+00:00</published>
+  <updated>2017-01-30T22:27:44+00:00</updated>
+  <media:group>
+   <media:title>Databases with TypeScript: Въведение в Node.js</media:title>
+   <media:content url="https://www.youtube.com/v/QhPSwZoOqL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QhPSwZoOqL4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Въведение в Node.js
+Курс: Бази от данни с Node.js и TypeScript
+Лектор: Дончо Минков
+Дата: 28 януари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="107"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yEpYH0OoCFQ</id>
+  <yt:videoId>yEpYH0OoCFQ</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Databases with TypeScript: Създаване на Data слой (data layer)</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=yEpYH0OoCFQ"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T19:29:28+00:00</published>
+  <updated>2017-01-30T21:37:25+00:00</updated>
+  <media:group>
+   <media:title>Databases with TypeScript: Създаване на Data слой (data layer)</media:title>
+   <media:content url="https://www.youtube.com/v/yEpYH0OoCFQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yEpYH0OoCFQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Създаване на Data слой (data layer)
+Курс: Бази от данни с Node.js и TypeScript
+Лектор: Дончо Минков
+Дата: 28 януари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="52"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:F0JUUyFDczY</id>
+  <yt:videoId>F0JUUyFDczY</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Databases with TypeScript: MongoDB с MongoDB native driver</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=F0JUUyFDczY"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T19:29:28+00:00</published>
+  <updated>2017-01-30T21:56:50+00:00</updated>
+  <media:group>
+   <media:title>Databases with TypeScript: MongoDB с MongoDB native driver</media:title>
+   <media:content url="https://www.youtube.com/v/F0JUUyFDczY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/F0JUUyFDczY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: MongoDB с MongoDB native driver
+Курс: Бази от данни с Node.js и TypeScript
+Лектор: Дончо Минков
+Дата: 28 януари 2017 г.
+
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="52"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CInG9ZByBDI</id>
+  <yt:videoId>CInG9ZByBDI</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Android: Навигация и фрагменти</title>
+  <link rel="alternate" href="http://www.youtube.com/watch?v=CInG9ZByBDI"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-01-30T16:51:46+00:00</published>
+  <updated>2017-02-01T08:07:11+00:00</updated>
+  <media:group>
+   <media:title>Android: Навигация и фрагменти</media:title>
+   <media:content url="https://www.youtube.com/v/CInG9ZByBDI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CInG9ZByBDI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Навигация и фрагменти
+Курс: Мобилни приложения за Android
+Лектор: Дончо Минков
+Дата: 27 януари 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="104"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

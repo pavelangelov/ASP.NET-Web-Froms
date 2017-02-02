@@ -66,6 +66,7 @@ namespace WebClient.App_Start
             kernel.Load(new MvpNinjectModule());
             kernel.Load(new CarsNinjectModule());
             kernel.Load(new EmployeesNinjectModule());
+            kernel.Load(new TreeViewNinjectModule());
 
             PresenterBinder.Factory = kernel.Get<IPresenterFactory>();
         }        
