@@ -8,7 +8,7 @@ namespace DataServices.Contracts
 {
     public interface ICarService
     {
-        string[] GetProducers();
+        IEnumerable<string> GetProducers();
 
         IEnumerable<string> GetModelsByProducer(string producer);
 

@@ -17,9 +17,9 @@ namespace DataServices
             GenerateProducers();
         }
 
-        public string[] GetProducers()
+        public IEnumerable<string> GetProducers()
         {
-            var producers = this.producers.Select(p => p.Name).ToArray();
+            var producers = this.producers.Select(p => p.Name);
 
             return producers;
         }
